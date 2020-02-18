@@ -53,7 +53,7 @@ publishing {
 
     repositories {
         maven {
-            name = "GitHubPackages"
+            name = "ViionUtils"
             /** Configure path of your package repository on Github
              *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
              */
