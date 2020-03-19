@@ -1,2 +1,2 @@
-include ':app', ':utils'
+include ':app', ':android-utils'
 rootProject.name='Repository'

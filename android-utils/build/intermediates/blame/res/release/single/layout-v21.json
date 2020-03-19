@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Faiizii Awan\\ViionTech\\Repository\\android-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\viper\\.gradle\\caches\\transforms-2\\files-2.1\\8df91983bdd67e4314919e428a70a39c\\core-1.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Faiizii Awan\\ViionTech\\Repository\\android-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\viper\\.gradle\\caches\\transforms-2\\files-2.1\\8df91983bdd67e4314919e428a70a39c\\core-1.0.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Faiizii Awan\\ViionTech\\Repository\\android-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\viper\\.gradle\\caches\\transforms-2\\files-2.1\\8df91983bdd67e4314919e428a70a39c\\core-1.0.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Faiizii Awan\\ViionTech\\Repository\\android-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\viper\\.gradle\\caches\\transforms-2\\files-2.1\\8df91983bdd67e4314919e428a70a39c\\core-1.0.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]
