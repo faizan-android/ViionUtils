@@ -446,38 +446,6 @@ public class AppUtils {
         }
         return timeStr;
     }
-    public static String getDifference(String timeStamp)
-    {
-        Calendar timeStampCal = Calendar.getInstance();
-        timeStampCal.setTime(stringToDate(timeStamp));
-        String diffStr = "";
-
-        long diffMinutes = TimeUnit.MINUTES.convert(Calendar.getInstance().getTimeInMillis() - timeStampCal.getTimeInMillis(), TimeUnit.MILLISECONDS);
-        if(diffMinutes == 0)
-            diffStr = "Now";
-        else if(diffMinutes < 60)
-            diffStr = diffMinutes +" Minutes Ago";
-        else {
-            long diffHours = TimeUnit.HOURS.convert(Calendar.getInstance().getTimeInMillis() - timeStampCal.getTimeInMillis(), TimeUnit.MILLISECONDS);
-            if(diffHours == 0)
-                diffStr = "1 Hour Ago";
-            else if(diffHours < 24)
-                diffStr = diffHours +" Hour Ago";
-            else
-            {
-                long diffDay = TimeUnit.DAYS.convert(Calendar.getInstance().getTimeInMillis() - timeStampCal.getTimeInMillis(), TimeUnit.MILLISECONDS);
-                if(diffDay == 0)
-                    diffStr = "1 Day Ago";
-                else{
-                    if(diffDay > 3)
-                        diffStr = new SimpleDateFormat("MMMM dd, yyyy", Locale.US).format(timeStampCal.getTime());
-                    else
-                        diffStr = diffDay +" Days Ago";
-                }
-            }
-        }
-        return diffStr;
-    }
 
     public static int setYearSpinnerSelection(Spinner spinner, String date) {
         if(date == null)
