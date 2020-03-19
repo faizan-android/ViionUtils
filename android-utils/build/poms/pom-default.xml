@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.viion.utils</groupId>
   <artifactId>android-utils</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <packaging>aar</packaging>
   <name>Faiizii Awan</name>
   <description>Important Viion android utils for an application</description>
